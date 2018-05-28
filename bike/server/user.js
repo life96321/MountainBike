@@ -25,7 +25,7 @@ Router.get('/info', (req, res) => {
     })
 })
 Router.get('/list', (req, res) => {
-    // User.remove({}, (err, doc) => {})
+    // User.remove({}, (err, doc) => {}) 删除所有用户信息
     const {type} = req.query
     User.find({type}, (err, doc) => {
         return res.json({code: 0, data: doc})
