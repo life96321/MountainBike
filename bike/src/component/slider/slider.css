@@ -1,0 +1,10 @@
+.slick-slider{
+    margin-top: 44px;
+}
+.slider-img{
+    width: 414px;
+}
+.slick-dots{
+    position: absolute;
+    bottom: 16px;
+}

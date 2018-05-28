@@ -1,0 +1,129 @@
+.am-navbar{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    background: #800000;
+}
+.am-tab-bar{
+    position: fixed;
+    z-index: 999;
+    bottom: 0;
+    width: 100%;
+    height:auto;
+}
+.fixed-header.am-navbar{
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    width: 100%;
+}
+.am-card-header-extra{
+    text-align: left;
+}
+.am-list-body{
+    padding: 10px;
+}
+
+#chat-page .chat-me .am-list-extra{
+    flex-basis:auto;
+}
+#chat-page .chat-me .am-list-content{
+    padding-right: 15px;
+    text-align: right;
+}
+#chat-page .am-grid-icon{
+    display: none;
+}
+#chat-page .am-grid-text{
+    margin-top: 0;
+}
+
+.chat-content{
+    margin: 50px 0 80px 0;
+}
+.stick-footer{
+    position: fixed;
+    z-index:10;
+    bottom: 0;
+    width:100%;
+}
+
+.am-tabs-tab-bar-wrap {
+    text-align: center;
+}
+.am-tabs-default-bar-tab-active {
+    color: #800000;
+}
+.am-tabs-default-bar-underline {
+    border: 1px #800000 solid;
+}
+.class-content{
+    margin-bottom: 56px;
+}
+.wrap-content{
+    height: 90px;
+    display: inline-block;
+    margin: 70px 0 0 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #000;
+}
+.auth-content{
+    display: inline-block;
+    vertical-align: middle;
+    width: 160px;
+}
+.img-content{
+    display: inline-block;
+    vertical-align: bottom;
+    padding-left: 100px;
+}
+.auth-content-title{
+    margin-bottom: 6px;
+}
+.slogon{
+    position: absolute;
+    bottom: 80px;
+    width: 100%;
+    text-align: center;
+    opacity: 0;
+    animation: fade 2s 2s forwards;
+}
+@-webkit-keyframes fade {
+    from{
+        opacity: 1;
+        -webkit-transform: translateX(-100px);
+    }
+    to{
+        opacity: 1;
+        -webkit-transform: translateX(-10px);
+    }
+}
+.list-name {
+    margin-bottom: 40px;
+}
+
+.am-list-header {
+    font-size: 20px;
+    color: #000;
+}
+
+.am-grid.am-grid-square .am-grid-item .am-grid-item-inner-content .am-grid-icon {
+    margin-top: 9px;
+    width: 70% !important;
+}
+.am-grid-icon{
+    width: 200px;
+}
+.rider-content, .server-content{
+    margin-top: 56px;
+}
+
+.am-list-item {
+    margin-top: 10px;
+}
+
+
+
+
+

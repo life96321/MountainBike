@@ -1,0 +1,7 @@
+.am-list-item{
+    max-height: 44px;
+}
+.err-msg{
+    text-align: center;
+    color: #ff0000;
+}
