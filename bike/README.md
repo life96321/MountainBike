@@ -19,7 +19,7 @@
   > $ npm install
 ## 启动项目 <br>
   进入 MongoDB/Server/3.4/bin 下，运行mongod.exe
-  再进入 项目目录 bike/server 用命令行工具执行 server.js文件
+  再进入 项目目录 bike/server 用命令行工具执行 server.js  (命令： node server.js)文件
   最后，bike 根目录下用命令行工具执行 npm start
 ## 备注
   后台数据在 http://localhost:9093/user 中
